@@ -1,0 +1,19 @@
+{
+  "name": "wien_toechtertag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StridS/Wien_Toechtertag.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StridS/Wien_Toechtertag/issues"
+  },
+  "homepage": "https://github.com/StridS/Wien_Toechtertag#readme"
+}
