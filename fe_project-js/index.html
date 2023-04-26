@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Paradoxal</title>
+    <script src="script.js"></script>
 </head>
 <body>
+    <dialog id="dialog">
+        <form action="">
+            <input type="text" placeholder="Schicke eine Nachricht">
+            <button id="cancel-button" type="reset">Abbrechen</button>
+            <button id="submit-button" type="submit">Abschicken</button>
+        </form>
+    </dialog>
+
     <header class="header">
         <nav class="menu">
             <a class="menu-button" href="#">Other games</a>
             <a class="menu-button" href="#">Follow us</a>
-            <button class="menu-button">Leave a message!</button>
+            <button id='message-button' class="menu-button">Leave a message!</button>
         </nav>
         <div class="title">
             <h1>Paradoxal</h1>
