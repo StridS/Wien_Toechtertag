@@ -1,97 +1,102 @@
+<dialog id="dialog">
+  <form action="">
+    <textarea
+      id="message-input"
+      type="text"
+      placeholder="Schicke eine Nachricht"
+    ></textarea>
+    <button id="cancel-button" type="reset">Abbrechen</button>
+    <button id="send-button" type="submit">Abschicken</button>
+  </form>
+</dialog>
 
-    <dialog id="dialog">
-        <form action="">
-            <textarea id="message-input" type="text" placeholder="Schicke eine Nachricht"></textarea>
-            <button id="cancel-button" type="reset">Abbrechen</button>
-            <button id="send-button" type="submit">Abschicken</button>
-        </form>
-    </dialog>
-
-    <header class="header">
-        <nav class="menu">
-            <a class="menu-button" href="#">Other games</a>
-            <a class="menu-button" href="#">Follow us</a>
-            <button id='message-button' class="menu-button">Leave a message!</button>
-        </nav>
-        <div class="title">
-            <h1>Paradoxal</h1>
-            <img class="logo" src="assets/media/meteor.png" alt="comet">
-        </div>
-    </header>
-    <main class="main">
-        <p class="subtitle">To save the past, would you sacrifice the future?</p>
-        <video class="video" controls width="250">
-            <source src="assets/media/placeholder_vr.mp4" type="video/mp4">
-        </video>
-        <div class="summary">
-            <section>
-                <h2>Summary</h2>
-                <p class="description">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no 
-                    sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem 
-                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam 
-                    nonumy eirmod tempor invidunt ut labore et dolore magna 
-                    aliquyam erat, sed diam voluptua.
-                </p>
-            </section>
-            <img class="night-sky" src="assets/media/night_sky-slim.jpg" alt="night sky slim">
-        </div>
-        <section>
-            <h2>Gameplay</h2>   
-            <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                justo duo dolores et ea rebum. 
-            </p>
-        </section>
-        <section>
-            <h2>Characters</h2>
-            <div class="characters">
-                <div class="card">
-                    <img class="card-image" src="assets/media/image.svg" alt="casey">
-                    <h3>Casey</h3>
-                    <p class="character-desc">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-                        diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                        aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                        justo duo dolores et ea rebum.
-                    </p>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="assets/media/image.svg" alt="lois">
-                    <h3>Lois</h3>
-                    <p class="character-desc">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-                        diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                        aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                        justo duo dolores et ea rebum.
-                    </p>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="assets/media/image.svg" alt="emerald">
-                    <h3>Emerald</h3>
-                    <p class="character-desc">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-                        diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                        aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                        justo duo dolores et ea rebum.
-                    </p>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="assets/media/image.svg" alt="damien">
-                    <h3>Damien</h3>
-                    <p class="character-desc">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-                        diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                        aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-                        justo duo dolores et ea rebum.
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <router-outlet></router-outlet>
+<header class="header">
+  <nav class="menu">
+    <a class="menu-button" href="#">Other games</a>
+    <a class="menu-button" href="#">Follow us</a>
+    <button id="message-button" class="menu-button">Leave a message!</button>
+  </nav>
+  <div class="title">
+    <h1>Paradoxal</h1>
+    <img class="logo" src="assets/media/meteor.png" alt="comet" />
+  </div>
+</header>
+<main class="main">
+  <p class="subtitle">To save the past, would you sacrifice the future?</p>
+  <video class="video" controls width="250">
+    <source src="assets/media/placeholder_vr.mp4" type="video/mp4" />
+  </video>
+  <div class="summary">
+    <section>
+      <h2>Summary</h2>
+      <p class="description">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua.
+      </p>
+    </section>
+    <img
+      class="night-sky"
+      src="assets/media/night_sky-slim.jpg"
+      alt="night sky slim"
+    />
+  </div>
+  <section>
+    <h2>Gameplay</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+    </p>
+  </section>
+  <section>
+    <h2>Characters</h2>
+    <div class="characters">
+      <div class="card">
+        <img class="card-image" src="assets/media/image.svg" alt="casey" />
+        <h3>Casey</h3>
+        <p class="character-desc">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum.
+        </p>
+      </div>
+      <div class="card">
+        <img class="card-image" src="assets/media/image.svg" alt="lois" />
+        <h3>Lois</h3>
+        <p class="character-desc">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum.
+        </p>
+      </div>
+      <div class="card">
+        <img class="card-image" src="assets/media/image.svg" alt="emerald" />
+        <h3>Emerald</h3>
+        <p class="character-desc">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum.
+        </p>
+      </div>
+      <div class="card">
+        <img class="card-image" src="assets/media/image.svg" alt="damien" />
+        <h3>Damien</h3>
+        <p class="character-desc">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+<router-outlet></router-outlet>
